@@ -1,10 +1,59 @@
-title: testing
-description: testing
+title: security-essentials
+description: A path to learn about security essentials on GitHub.
 steps:
-  - course: githubtraining/introduction-to-github
-    description: The first step in your course
-  - link: 'https://lab.github.com'
-    title: Check out Learning Lab for more courses!
+  - link: https://github.com/features/security
+    title: The GitHub Security ecosystem
     description: >-
-      There are many more courses available on Learning Lab for you to check
-      out.
+      An overview of security on GitHub.
+  - course: githubtraining/security-strategy-essentials
+    description: >-
+      Learn how to use Dependabot to find and fix vulnerable dependencies.
+
+      Steps covered in this course:
+      - Enable repository settings
+      - Find the vulnerable dependency
+      - Manually update the dependency version
+      - Merge your pull request
+
+      Resources:
+      - [GitHub Docs: Security alerts](https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies)
+  - link: https://docs.github.com/en/github/managing-security-vulnerabilities/configuring-github-dependabot-security-updates
+    title: How to fix a vulnerable dependency
+    description: >-
+      Cheatsheet: How to fix a vulnerable dependency
+  - link: https://docs.github.com/en/github/managing-security-vulnerabilities/configuring-github-dependabot-security-updates
+    title: Dependabot and you
+    description: >-
+      Learn how Dependabot acts on behalf of you and GitHub to keep your code safe. 
+  - course: githubtraining/security-strategy-essentials
+    description: >-
+      Use Dependabot's security updates to keep you automatically safe. 
+
+      Steps covered in this course:
+      - Enable Dependabot
+
+      Resources:
+      - [GitHub Docs: Configuring GitHub Dependabot security updates](https://docs.github.com/en/github/managing-security-vulnerabilities/configuring-github-dependabot-security-updates)
+  - course: githubtraining/security-strategy-essentials
+    description: >-
+      Learn how to manage reports of security vulnerabilities.
+
+      Steps covered in this course:
+      - Add a `SECURITY.md` file
+      - Merge the `SECURITY.md` pull request
+  - link: https://docs.github.com/en/github/managing-security-vulnerabilities/configuring-github-dependabot-security-updates
+    title: Shift left on security
+    description: >-
+      Read how to shift left on security and why security is everyone's responsibility.
+  - course: githubtraining/security-strategy-essentials
+    description: >-
+      Protecting sensitive data.
+
+      Steps covered in this course:
+      - Remove sensitive data in a pull request.
+      - Approve the pull request
+      - Add a `.gitignore` file.
+      - Merge the pull request.
+      - Find historical reference to a previous `.env` file
+      - Remove historical reference to a previous `.env` file.
+      
