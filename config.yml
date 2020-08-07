@@ -1,5 +1,5 @@
-title: test
-description: test
+title: testing
+description: testing
 steps:
   - course: githubtraining/introduction-to-github
     description: The first step in your course
